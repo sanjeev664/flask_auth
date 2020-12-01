@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block content %}
+  <section>
+      <h1>Yhis is Home Page</h1>
+      <a href="{{ url_for('login') }}">Login </a>
+      <hr>
+      <hr>
+      <a href="{{ url_for('signup') }}">SignUP </a>
+  </section>
+{% endblock content %}
